@@ -13,6 +13,7 @@
 		4A5DB96821FBA85700FDC661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DB96721FBA85700FDC661 /* Assets.xcassets */; };
 		4A5DB96B21FBA85700FDC661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DB96921FBA85700FDC661 /* LaunchScreen.storyboard */; };
 		4A5DB97621FBA85800FDC661 /* VickySergioFelipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DB97521FBA85800FDC661 /* VickySergioFelipeTests.swift */; };
+		4A5DB98121FBAF0D00FDC661 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DB98021FBAF0D00FDC661 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4A5DB97121FBA85800FDC661 /* VickySergioFelipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VickySergioFelipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5DB97521FBA85800FDC661 /* VickySergioFelipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VickySergioFelipeTests.swift; sourceTree = "<group>"; };
 		4A5DB97721FBA85800FDC661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DB98021FBAF0D00FDC661 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4A5DB96721FBA85700FDC661 /* Assets.xcassets */,
 				4A5DB96921FBA85700FDC661 /* LaunchScreen.storyboard */,
 				4A5DB96C21FBA85700FDC661 /* Info.plist */,
+				4A5DB98021FBAF0D00FDC661 /* Calculator.swift */,
 			);
 			path = VickySergioFelipe;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				4A5DB96321FBA85500FDC661 /* ViewController.swift in Sources */,
 				4A5DB96121FBA85500FDC661 /* AppDelegate.swift in Sources */,
+				4A5DB98121FBAF0D00FDC661 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tw.workshop.VickySergioFelipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piperamirez.tw.test.holi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tw.workshop.VickySergioFelipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piperamirez.tw.test.holi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
